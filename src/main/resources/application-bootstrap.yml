@@ -1,0 +1,9 @@
+bootstrap:
+  username: administrator
+  password: password
+  authorities: ROLE_ADMINISTRATOR
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
